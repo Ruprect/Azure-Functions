@@ -1,3 +1,13 @@
 {
-    "name": "Azure"
+  "array1": [
+    { "VagtId": 1, "name": "John" },
+    { "VagtId": 2, "name": "Jane" },
+    { "VagtId": 3, "name": "Alice" }
+  ],
+  "array2": [
+    { "VagtId": 2, "name": "Jane" },
+    { "VagtId": 3, "name": "Kate" },
+    { "VagtId": 4, "name": "Mike" }
+  ],
+  "comparisonKey": "VagtId"
 }
