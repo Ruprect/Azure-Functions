@@ -1,0 +1,22 @@
+openapi: '3.0.2'
+info:
+  title: API Title
+  version: '1.0'
+servers:
+  - url: http://localhost:7071
+    description: Local devel
+paths:
+  /api/arrayDifferences:
+    post:
+      description: 'Get differences between two arrays'
+      parameters: [{"in":"path","name":"array1"},{"in":"path","name":"array2"},{"in":"path","name":"comparrisonKey"}]
+      responses:
+        '200':
+          description: OK
+  /api/mergeArrays:
+    post:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
